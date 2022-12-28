@@ -2,7 +2,7 @@
 #include <IRLibSendBase.h>
 #include <IRLib_HashRaw.h>
 IRrecvPCI myReceiver(2);  // Arduino UNO pin 2
-IRsendRaw mySender;
+IRsendRaw mySender; // Arduino UNO pin 3
 
 #define RAW_DATA_LEN 200
 // uint16_t rawDataON[RAW_DATA_LEN]={
